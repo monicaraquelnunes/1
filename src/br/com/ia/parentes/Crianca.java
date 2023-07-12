@@ -4,6 +4,9 @@ import br.com.ia.geral.Pessoa;
 
 public class Crianca extends Pessoa {
     // Representação de uma criança morena de 7 anos
+    public String quemSou(){
+        return "Eu sou uma criança de 7 anos";
+    }
     public String corPelePessoa() {
         return "Morena";
     }

@@ -4,6 +4,9 @@ import br.com.ia.geral.Pessoa;
 
 public class Idoso extends Pessoa {
     // Representação de um idoso branco de 79 anos
+    public String quemSou(){
+        return "Eu sou um idoso de 79 anos";
+    }
     public String corPelePessoa() {
         return "Branco";
     }
